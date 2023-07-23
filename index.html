@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Div1">
+        <div class="Div2">
+            <input id="Result" style="margin-top: 9px;">
+        </div>
+        <div class="Div3">
+            <button id="7" onclick="GetNumber(7)">7</button>
+            <button id="8" onclick="GetNumber(8)">8</button>
+            <button id="9" onclick="GetNumber(9)">9</button>
+            <button id="Del" style="color: #fff; background-color: hsl(290, 70%, 36%)">Del</button>
+            <br>
+            <button id="4" onclick="GetNumber(4)">4</button>
+            <button id="5" onclick="GetNumber(5)">5</button>
+            <button id="6" onclick="GetNumber(6)">6</button>
+            <button onclick="GetOperation('+')" id="+">+</button>
+            <br>
+            <button id="1" onclick="GetNumber(1)">1</button>
+            <button id="2" onclick="GetNumber(2)">2</button>
+            <button id="3" onclick="GetNumber(3)">3</button>
+            <button id="-" onclick="GetOperation('-')">-</button>
+            <br>
+            <button onclick="GetOperation('.')">.</button>
+            <button id="0" onclick="GetNumber(0)">0</button>
+            <button id="/" onclick="GetOperation('/')">/</button>
+            <button id="*" onclick="GetOperation('*')">*</button>
+            <br>
+            <button style="width: 150px;background-color: hsl(290, 70%, 36%)" id="Reset">Reset</button>
+            <button style="background-color: hsl(176, 100%, 44%); width: 150px; border: 0;" onclick="Calculate('=')">=</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+
